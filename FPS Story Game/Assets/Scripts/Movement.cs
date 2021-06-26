@@ -6,8 +6,11 @@ public class Movement : MonoBehaviour {
 
     public float defaultMovementSpeed;
     public float speedMultiplier;
+    public float jumpHeight;
     public bool canMove;
+    public bool isGrounded;
     public float movementSpeed;
+    public LayerMask mask;
 
     Rigidbody body;
 
@@ -22,6 +25,14 @@ public class Movement : MonoBehaviour {
     private void Update() {
 
         if(canMove) {
+
+            isGrounded = Physics.CheckSphere(new Vector3(transform.position.x, transform.position.y - (transform.localScale.y + 0.25f), transform.position.z), 0.4f, mask);
+
+            if(isGrounded && Input.GetKeyDown(KeyCode.Space)) {
+
+                body.velocity += new Vector3(0, jumpHeight, 0);
+
+            }
 
             if(Input.GetKey(KeyCode.LeftShift)) {
 

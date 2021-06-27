@@ -3,14 +3,14 @@ using UnityEngine;
 
 public class Meelee : Weapon {
 
-    public string weaponName;
-    public int id;
-    public int damage;
-    public float cooldown;
-    public bool isEquiped;
-    public bool isInInvetory;
-
     private float lastAttack;
+
+    private void Start() {
+
+        isInInvetory = true;
+        isEquiped = true;
+
+    }
 
     private void Update() {
 
@@ -34,8 +34,18 @@ public class Meelee : Weapon {
 
     public override void PickUp() {
 
-        Debug.Log("Picked Up " + weaponName);
+        if(!isInInvetory) {
 
+            Equip();
+
+        }
+
+    }
+
+    public override void Equip() {
+
+        Instantiate(weapon, CameraLook.instance.equipPlaceholder);
+        
     }
 
 }

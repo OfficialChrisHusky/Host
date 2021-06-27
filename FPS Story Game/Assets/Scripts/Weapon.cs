@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface Weapon {
+[System.Serializable]
+public abstract class Weapon : MonoBehaviour {
 
-    public void Attack();
+    public abstract void Attack();
+    public abstract void PickUp();
 
 }

@@ -44,7 +44,7 @@ public class Meelee : Weapon {
 
     public override void Equip() {
 
-        Instantiate(weapon, CameraLook.instance.equipPlaceholder);
+        //Instantiate(weapon, CameraLook.instance.equipPlaceholder);
         
     }
 

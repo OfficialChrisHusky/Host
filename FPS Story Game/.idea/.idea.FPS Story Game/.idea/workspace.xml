@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c52b126-f625-40cd-bcdf-a7adf77114da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Story Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Story Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +13,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/HealthSystem.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1uU2Y2BRd1lGk9QM7EAbUvKhvFf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,6 +65,7 @@
       <updated>1624705893636</updated>
       <workItem from="1624705912828" duration="511000" />
       <workItem from="1624707037385" duration="399000" />
+      <workItem from="1624897919745" duration="2546000" />
     </task>
     <servers />
   </component>

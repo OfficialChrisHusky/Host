@@ -15,8 +15,7 @@ public class HealthSystem : MonoBehaviour
 
     private void Awake()
     {
-        health = 0;
-        StartCoroutine(RegenerationHealth(0.1f));
+        health = countOfHealth;
     }
 
     private void BarChanger()

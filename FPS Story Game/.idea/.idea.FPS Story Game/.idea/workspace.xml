@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c52b126-f625-40cd-bcdf-a7adf77114da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Story Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Story Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HealthSystem.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/HealthSystem.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +26,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Save.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/testsave.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveGame.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1uU2Y2BRd1lGk9QM7EAbUvKhvFf" />
@@ -85,7 +79,8 @@
       <workItem from="1624897919745" duration="3057000" />
       <workItem from="1624901407248" duration="236000" />
       <workItem from="1625048862404" duration="5180000" />
-      <workItem from="1625057301113" duration="2991000" />
+      <workItem from="1625057301113" duration="3363000" />
+      <workItem from="1625061052411" duration="1449000" />
     </task>
     <servers />
   </component>

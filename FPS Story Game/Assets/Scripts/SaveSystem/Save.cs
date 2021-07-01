@@ -5,12 +5,12 @@ public class Save {
     public float[] rotation;
 
     public Save(Player player) {
-
+        var position1 = player.transform.position;
         position = new float[3] {
 
-            player.transform.position.x,
-            player.transform.position.y,
-            player.transform.position.z,
+            position1.x,
+            position1.y,
+            position1.z,
 
         };
 

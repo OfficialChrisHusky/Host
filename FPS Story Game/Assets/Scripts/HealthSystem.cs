@@ -30,7 +30,7 @@ public class HealthSystem : MonoBehaviour
         if (health <= 0)
         {
             health = 0;
-            Debug.Log("!Min Health:" + health);
+            //Debug.Log("!Min Health:" + health);
         }
     }
 
@@ -41,7 +41,7 @@ public class HealthSystem : MonoBehaviour
         if (health > countOfHealth)
         {
             health = countOfHealth;
-            Debug.Log("!Max Health:" + health);
+            //Debug.Log("!Max Health:" + health);
         }
     }
     
@@ -55,7 +55,7 @@ public class HealthSystem : MonoBehaviour
             if (health > countOfHealth)
             {
                 health = countOfHealth;
-                Debug.Log("!Max Health:" + health);
+                //Debug.Log("!Max Health:" + health);
                 yield break;
             }
             yield return new WaitForSeconds(hps);

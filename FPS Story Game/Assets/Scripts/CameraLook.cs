@@ -17,8 +17,6 @@ public class CameraLook : MonoBehaviour
     }
     private void Update()
     {
-        if (Player.instance.canLook)
-        {
             float mouseX = Input.GetAxis("Mouse X") * (mouseSensitivity * 10) * Time.deltaTime;
             float mouseY = Input.GetAxis("Mouse Y") * (mouseSensitivity * 10) * Time.deltaTime;
 
@@ -27,6 +25,5 @@ public class CameraLook : MonoBehaviour
 
             transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
             player.Rotate(Vector3.up * mouseX);
-        }
     }
 }

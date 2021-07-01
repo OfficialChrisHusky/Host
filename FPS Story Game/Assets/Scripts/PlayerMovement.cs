@@ -28,8 +28,6 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        if (Player.instance.canMove)
-        {
             isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, whatIsGround);
 
             if (isGrounded && velocity.y < 0)
@@ -59,7 +57,5 @@ public class PlayerMovement : MonoBehaviour
             velocity.y += gravity * Time.deltaTime;
 
             playerController.Move(velocity * Time.deltaTime);
-
-        }
     }
 }

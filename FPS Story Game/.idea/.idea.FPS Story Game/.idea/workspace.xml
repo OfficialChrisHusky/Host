@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c52b126-f625-40cd-bcdf-a7adf77114da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.FPS Story Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FPS Story Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Blade.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Blade.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Handle.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Handle.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/UserInterface/White-Square.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/UserInterface/White-Square.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +23,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveGame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -27,6 +32,7 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameSaver.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/testsave.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveGame.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/Save.cs" />
     </changedPaths>
   </component>
@@ -81,6 +87,7 @@
       <workItem from="1625048862404" duration="5180000" />
       <workItem from="1625057301113" duration="3363000" />
       <workItem from="1625061052411" duration="1449000" />
+      <workItem from="1625132747306" duration="645000" />
     </task>
     <servers />
   </component>

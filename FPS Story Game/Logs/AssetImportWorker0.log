@@ -151,3 +151,437 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002814 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.0 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4030.
+Total: 3.299700 ms (FindLiveObjects: 0.285900 ms CreateObjectMapping: 0.128800 ms MarkObjects: 2.798800 ms  DeleteObjects: 0.085000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002876 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.996 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3404 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.1 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 4033.
+Total: 3.160000 ms (FindLiveObjects: 0.248500 ms CreateObjectMapping: 0.129100 ms MarkObjects: 2.687800 ms  DeleteObjects: 0.093800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 143.416899 seconds.
+  path: Assets/Meshes/knife.fbx
+  artifactKey: Guid(3c9e25b25e85fa54282a918683e366f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/knife.fbx using Guid(3c9e25b25e85fa54282a918683e366f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c42cf41a362524c36ad4006ae67db6') in 0.202135 seconds 
+  Import took 0.208321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.295879 seconds.
+  path: Assets/Meshes/knife.fbx
+  artifactKey: Guid(3c9e25b25e85fa54282a918683e366f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/knife.fbx using Guid(3c9e25b25e85fa54282a918683e366f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe2723f3f117b10161a3b48d99f0d3') in 0.035271 seconds 
+  Import took 0.041005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.544721 seconds.
+  path: Assets/Models
+  artifactKey: Guid(7bbcd04da9749544a8a44252a5dc59b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models using Guid(7bbcd04da9749544a8a44252a5dc59b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8faea91b723f2d1ca123f166264644e') in 0.005812 seconds 
+  Import took 0.010804 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.984999 seconds.
+  path: Assets/Models/WeaponModels
+  artifactKey: Guid(943d8a2a895538e4a9e24b4b98a3eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/WeaponModels using Guid(943d8a2a895538e4a9e24b4b98a3eda2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8540eb274601bfb2cf08c073d59669ab') in 0.005665 seconds 
+  Import took 0.011484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.680748 seconds.
+  path: Assets/Materials/Blade.mat
+  artifactKey: Guid(afc47602569e5074ca3226055d88228d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Blade.mat using Guid(afc47602569e5074ca3226055d88228d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885fb23bc339d67c064e1e0f6afa8496') in 0.028157 seconds 
+  Import took 0.033496 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Materials/Handle.mat
+  artifactKey: Guid(e0bb95faa7bf0dd4fa04751c0e39f3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Handle.mat using Guid(e0bb95faa7bf0dd4fa04751c0e39f3ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6fc3b031fd1ec5a1241b2cd1476b69') in 0.021845 seconds 
+  Import took 0.026557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.884033 seconds.
+  path: Assets/Materials/BasicColors
+  artifactKey: Guid(ce2d78c8846b1d14fb1b95fe200e900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors using Guid(ce2d78c8846b1d14fb1b95fe200e900e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33124893936a50252411366ec22b9e6e') in 0.005314 seconds 
+  Import took 0.010274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.228551 seconds.
+  path: Assets/Materials/BasicColors/test.mat
+  artifactKey: Guid(a2c72e5211c6d5e42b0b8a226c78ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/test.mat using Guid(a2c72e5211c6d5e42b0b8a226c78ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77d199469426a4177716853925caf454') in 0.014887 seconds 
+  Import took 0.019932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.043462 seconds.
+  path: Assets/Materials/BasicColors/Gray.mat
+  artifactKey: Guid(a2c72e5211c6d5e42b0b8a226c78ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Gray.mat using Guid(a2c72e5211c6d5e42b0b8a226c78ffa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9abe2a39884829c14908eef53a6838a9') in 0.012664 seconds 
+  Import took 0.018054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.238360 seconds.
+  path: Assets/Materials/BasicColors/Black.mat
+  artifactKey: Guid(ae90cc1853c3f204eb4112aac03b7470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Black.mat using Guid(ae90cc1853c3f204eb4112aac03b7470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b1fe5677be5162b7fe4bc703c2ea9a') in 0.012359 seconds 
+  Import took 0.017257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.772791 seconds.
+  path: Assets/Materials/BasicColors/Black.mat
+  artifactKey: Guid(ae90cc1853c3f204eb4112aac03b7470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Black.mat using Guid(ae90cc1853c3f204eb4112aac03b7470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb345c1cacb7c079dd5866a030859f4') in 0.013664 seconds 
+  Import took 0.019466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.131259 seconds.
+  path: Assets/Materials/BasicColors/Pink.mat
+  artifactKey: Guid(61b2bab5422a777498b872786726539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Pink.mat using Guid(61b2bab5422a777498b872786726539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a97f3209ee93b3ab749f49a9bd8f9d') in 0.012472 seconds 
+  Import took 0.018897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.820634 seconds.
+  path: Assets/Materials/BasicColors/Pink.mat
+  artifactKey: Guid(61b2bab5422a777498b872786726539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Pink.mat using Guid(61b2bab5422a777498b872786726539d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273c21b6e3cbca04101880d42af109d2') in 0.016907 seconds 
+  Import took 0.022117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.097102 seconds.
+  path: Assets/Materials/BasicColors/BlueLight.mat
+  artifactKey: Guid(d929cc02270df0941bdc52fc57e45b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/BlueLight.mat using Guid(d929cc02270df0941bdc52fc57e45b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05186eca75c300691b064446df32832') in 0.012290 seconds 
+  Import took 0.022430 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.940491 seconds.
+  path: Assets/Materials/BasicColors/BlueLight.mat
+  artifactKey: Guid(d929cc02270df0941bdc52fc57e45b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/BlueLight.mat using Guid(d929cc02270df0941bdc52fc57e45b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e698d2786f757bb74f8ab8fb7150de') in 0.012938 seconds 
+  Import took 0.028411 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.450686 seconds.
+  path: Assets/Materials/BasicColors/Green.mat
+  artifactKey: Guid(aeb90c89c43f4a444b6d8e1b7413b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Green.mat using Guid(aeb90c89c43f4a444b6d8e1b7413b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24575551d8f87bcebecb8d564b46d833') in 0.012420 seconds 
+  Import took 0.017396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.874069 seconds.
+  path: Assets/Materials/BasicColors/Green.mat
+  artifactKey: Guid(aeb90c89c43f4a444b6d8e1b7413b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Green.mat using Guid(aeb90c89c43f4a444b6d8e1b7413b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af105d70f1cceb3c3d88d3364cc0e6a2') in 0.012590 seconds 
+  Import took 0.018250 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.542225 seconds.
+  path: Assets/Materials/BasicColors/Pruple.mat
+  artifactKey: Guid(a9a1d15dcfeca69419153d6769056ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/BasicColors/Pruple.mat using Guid(a9a1d15dcfeca69419153d6769056ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b18a42d98bac78ae1cd10f29bb5f3c2') in 0.014810 seconds 
+  Import took 0.019869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.708763 seconds.
+  path: Assets/Scenes/TestScenes
+  artifactKey: Guid(67acca3907ed82243af3a88fab3a368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestScenes using Guid(67acca3907ed82243af3a88fab3a368d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcc7ffb425f967d734f22fac7c0e913') in 0.005594 seconds 
+  Import took 0.025415 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.654530 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(7386d42486488434aaf0ee60f3e37168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(7386d42486488434aaf0ee60f3e37168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0917743ab351fabf8bb590c8746eb20') in 0.004880 seconds 
+  Import took 0.009652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.096395 seconds.
+  path: Assets/Prefabs/Weapons
+  artifactKey: Guid(68e6f5334e9433c439915cb04a1f08d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons using Guid(68e6f5334e9433c439915cb04a1f08d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56e332db9939cb819a86126ad5ca55a9') in 0.005682 seconds 
+  Import took 0.010401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.801638 seconds.
+  path: Assets/Prefabs/Effects
+  artifactKey: Guid(59ec5ecad1f33e54d8509ac397bf4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects using Guid(59ec5ecad1f33e54d8509ac397bf4797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5019f6701d642ab2f3fb3f361dac4af8') in 0.005220 seconds 
+  Import took 0.009819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.576821 seconds.
+  path: Assets/Prefabs/Effects/Sparks.prefab
+  artifactKey: Guid(dcfea3bb5f75a7f42adaf6b1884e7af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/Sparks.prefab using Guid(dcfea3bb5f75a7f42adaf6b1884e7af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2389b6f69ef97e386b690092d0d928') in 0.009636 seconds 
+  Import took 0.014519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.553595 seconds.
+  path: Assets/Prefabs/Effects/Particles
+  artifactKey: Guid(85ecdec22c978cf4196dc236aefcb1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Effects/Particles using Guid(85ecdec22c978cf4196dc236aefcb1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41a8c44702f5badddef50e03b95eb6d') in 0.005574 seconds 
+  Import took 0.010402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.699747 seconds.
+  path: Assets/Prefabs/Weapons/Prefab_Knife.prefab
+  artifactKey: Guid(46e9d0b5e27a59c4088fa3bc6bb9cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Weapons/Prefab_Knife.prefab using Guid(46e9d0b5e27a59c4088fa3bc6bb9cc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eebbbe42155af667cb3957d7d02d02d') in 0.031005 seconds 
+  Import took 0.036936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.291052 seconds.
+  path: Assets/Animations
+  artifactKey: Guid(7ba9d1cfad7f23e44a397a449fbbef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations using Guid(7ba9d1cfad7f23e44a397a449fbbef06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4812c2144b79de9f45153464d7bec1de') in 0.005680 seconds 
+  Import took 0.015753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.898293 seconds.
+  path: Assets/Animations/Weapons
+  artifactKey: Guid(74efe7b887d83374f8db8467054835fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Weapons using Guid(74efe7b887d83374f8db8467054835fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a46f48cd03b2b97ed13403bfe29329') in 0.001693 seconds 
+  Import took 0.006463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.159577 seconds.
+  path: Assets/Textures/Weapons
+  artifactKey: Guid(2d6b6446b7ae9cf449ed658221bf5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons using Guid(2d6b6446b7ae9cf449ed658221bf5c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a8e4dace44e0cc5ef6f1826dc52436') in 0.002091 seconds 
+  Import took 0.006905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.165521 seconds.
+  path: Assets/Textures/Weapons/Knife
+  artifactKey: Guid(22d7adf59560263499adc75a93e395bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife using Guid(22d7adf59560263499adc75a93e395bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e71a8954547963996a2b0eecc14694c') in 0.005314 seconds 
+  Import took 0.010801 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.144394 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png
+  artifactKey: Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png using Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c20ad07ca817648e5844a82d6f32a8') in 0.020306 seconds 
+  Import took 0.025600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.048538 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png
+  artifactKey: Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png using Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad20e8d72504be0e9ea90f9629e40f3a') in 0.006286 seconds 
+  Import took 0.011436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.519012 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png
+  artifactKey: Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png using Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bc83aa46ee4754d2d8a4d766bd6df2') in 0.014574 seconds 
+  Import took 0.019410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.184055 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png
+  artifactKey: Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png using Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23edfc21fd6dc02defd913fb5aa6576') in 0.006338 seconds 
+  Import took 0.011230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.248680 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png
+  artifactKey: Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_BaseMap.png using Guid(db2d0bb918624a4499dae42b0211f634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8394c1b2372ab8e49d52f2d844cca755') in 0.012097 seconds 
+  Import took 0.017610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.799803 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_Normal.png
+  artifactKey: Guid(6383f891531a5c04bbeefc58b5cfc451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_Normal.png using Guid(6383f891531a5c04bbeefc58b5cfc451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968bf50c02824df4df6b05a532fc2c53') in 0.015504 seconds 
+  Import took 0.020406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Handle_Normal.png
+  artifactKey: Guid(bba993a078d09124089ae0926ad60717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Handle_Normal.png using Guid(bba993a078d09124089ae0926ad60717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f900fab62d40c68991ce19ef47f362') in 0.013468 seconds 
+  Import took 0.018448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000346 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Wrap_BaseMap.png
+  artifactKey: Guid(d5cb047c0eda43940a93c8260150985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Wrap_BaseMap.png using Guid(d5cb047c0eda43940a93c8260150985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93ae563c6022f87f1a5ccea50c66be4') in 0.017826 seconds 
+  Import took 0.034536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Handle_BaseMap.png
+  artifactKey: Guid(b39b702dac439124e9afc904c3c4a79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Handle_BaseMap.png using Guid(b39b702dac439124e9afc904c3c4a79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84476e85b101dcd215a7ff1e4058954') in 0.013860 seconds 
+  Import took 0.018666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Wrap_Normal.png
+  artifactKey: Guid(a3fed04aed04e2744a66f9075d4d0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Wrap_Normal.png using Guid(a3fed04aed04e2744a66f9075d4d0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a82f9ac1e592eb651890fe1c9f889d') in 0.011235 seconds 
+  Import took 0.016107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.652431 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Blade_Normal.png
+  artifactKey: Guid(6383f891531a5c04bbeefc58b5cfc451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Blade_Normal.png using Guid(6383f891531a5c04bbeefc58b5cfc451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fdebb74bf97bc72ec5dc0d60183c2e') in 0.011876 seconds 
+  Import took 0.016888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Handle_Normal.png
+  artifactKey: Guid(bba993a078d09124089ae0926ad60717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Handle_Normal.png using Guid(bba993a078d09124089ae0926ad60717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd62dec7bfa7965ccaf89618eef9fcdb') in 0.012865 seconds 
+  Import took 0.017817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Wrap_BaseMap.png
+  artifactKey: Guid(d5cb047c0eda43940a93c8260150985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Wrap_BaseMap.png using Guid(d5cb047c0eda43940a93c8260150985f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87c34c52067d96d76b616cc45c0977a') in 0.012816 seconds 
+  Import took 0.017385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Handle_BaseMap.png
+  artifactKey: Guid(b39b702dac439124e9afc904c3c4a79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Handle_BaseMap.png using Guid(b39b702dac439124e9afc904c3c4a79e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5069b168c4b52eb87fc59658be9b7a') in 0.013861 seconds 
+  Import took 0.018731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000353 seconds.
+  path: Assets/Textures/Weapons/Knife/Knife_Wrap_Normal.png
+  artifactKey: Guid(a3fed04aed04e2744a66f9075d4d0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Weapons/Knife/Knife_Wrap_Normal.png using Guid(a3fed04aed04e2744a66f9075d4d0c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82966659cfa20bae71292a27baf44c12') in 0.018741 seconds 
+  Import took 0.024316 seconds .
+

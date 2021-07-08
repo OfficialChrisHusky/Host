@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     [Header("Movement Variables")]
     public float moveSpeed = 10f;
     public float speedMultiplier = 2f;
+    public bool isSprinting;
     Vector3 velocity;
 
     [Header("Jump Variables")]
@@ -28,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
+        if(Player.instance.canMove)
+        {
             isGrounded = Physics.CheckSphere(groundCheck.position, groundCheckRadius, whatIsGround);
 
             if (isGrounded && velocity.y < 0)
@@ -40,22 +43,24 @@ public class PlayerMovement : MonoBehaviour
                 velocity.y = Mathf.Sqrt(jumpHeigth * -2 * gravity);
             }
 
-
+            if (Input.GetKeyDown(KeyCode.LeftShift))
+            {
+                moveSpeed *= speedMultiplier;
+            } else if(Input.GetKeyUp(KeyCode.LeftShift))
+            {
+                moveSpeed /= speedMultiplier;
+            }
 
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
 
             Vector3 move = transform.right * x + transform.forward * z;
 
-            if (Input.GetKey(KeyCode.LeftShift))
-            {
-                move *= speedMultiplier;
-            }
-
             playerController.Move(move * moveSpeed * Time.deltaTime);
 
             velocity.y += gravity * Time.deltaTime;
 
             playerController.Move(velocity * Time.deltaTime);
+        }
     }
 }

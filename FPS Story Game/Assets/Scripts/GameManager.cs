@@ -26,6 +26,14 @@ public class GameManager : MonoBehaviour {
 
             LoadSave();
 
+        } else if(Input.GetKeyDown(KeyCode.H)) {
+
+            Player.instance.healthSystem.Hit(10);
+
+        } else if(Input.GetKeyDown(KeyCode.G)) {
+
+            Player.instance.healthSystem.Heal(15);
+
         }
         
     }

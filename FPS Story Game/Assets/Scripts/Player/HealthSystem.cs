@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class HealthSystem : MonoBehaviour
 {
     [Header("Variables")] 
-    public int countOfHealth;
+    public int maxHealth;
     [SerializeField] private int health;
 
     [Header("Components")] 
@@ -15,32 +15,33 @@ public class HealthSystem : MonoBehaviour
 
     private void Awake()
     {
-        health = countOfHealth;
+        BarChanger();
     }
 
     private void BarChanger()
     {
-        imageBar.fillAmount = health /(float) countOfHealth;
+        imageBar.fillAmount = health /(float) maxHealth;
     }
 
-    public void DamageHealth(int damageCount)
+    public void Hit(int damageCount)
     {
         health -= damageCount;
         BarChanger();
         if (health <= 0)
         {
             health = 0;
-            //Debug.Log("!Min Health:" + health);
+            
+            Player.instance.Die();
         }
     }
 
-    public void HealHealth(int healCount)
+    public void Heal(int healCount)
     {
         health += healCount;
         BarChanger();
-        if (health > countOfHealth)
+        if (health > maxHealth)
         {
-            health = countOfHealth;
+            health = maxHealth;
             //Debug.Log("!Max Health:" + health);
         }
     }
@@ -52,9 +53,9 @@ public class HealthSystem : MonoBehaviour
         {
             health++;
             BarChanger();
-            if (health > countOfHealth)
+            if (health > maxHealth)
             {
-                health = countOfHealth;
+                health = maxHealth;
                 //Debug.Log("!Max Health:" + health);
                 yield break;
             }

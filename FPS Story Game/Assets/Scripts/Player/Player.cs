@@ -17,8 +17,9 @@ public class Player : MonoBehaviour {
     }
 
     [Header("Scripts")]
-    [SerializeField] private PlayerMovement movement;
-    [SerializeField] private CameraLook cameraLook;
+    public PlayerMovement movement;
+    public CameraLook cameraLook;
+    public HealthSystem healthSystem;
 
     [Header("Player Variables")]
     public bool canMove;
@@ -27,5 +28,13 @@ public class Player : MonoBehaviour {
     public GameObject playerCamera;
     public GameObject playerBody;
 
+    public void Die() {
+
+        Debug.Log("ded");
+
+        canMove = false;
+        canLook = false;
+
+    }
 
 }

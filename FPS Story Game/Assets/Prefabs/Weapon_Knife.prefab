@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &7764469520760066273
+--- !u!1 &5056108358163668146
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,49 +8,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6956723631043906139}
-  - component: {fileID: 6279395422511236606}
-  - component: {fileID: 8124515254436622644}
-  - component: {fileID: 7807465198742257685}
-  - component: {fileID: 3384582060015119208}
-  - component: {fileID: 4738203657253243482}
-  - component: {fileID: 2084989674286798667}
+  - component: {fileID: 5575798767577908744}
+  - component: {fileID: 8849270879377803693}
+  - component: {fileID: 6713208651715525991}
+  - component: {fileID: 1077300905248111316}
   m_Layer: 0
-  m_Name: Prefab_Knife
+  m_Name: Weapon_Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &6956723631043906139
+--- !u!4 &5575798767577908744
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_GameObject: {fileID: 5056108358163668146}
+  m_LocalRotation: {x: -0.29883623, y: 0.64085644, z: 0.29883623, w: 0.64085644}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
---- !u!33 &6279395422511236606
+--- !u!33 &8849270879377803693
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
+  m_GameObject: {fileID: 5056108358163668146}
   m_Mesh: {fileID: 4898376589914736847, guid: 3c9e25b25e85fa54282a918683e366f7, type: 3}
---- !u!23 &8124515254436622644
+--- !u!23 &6713208651715525991
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
+  m_GameObject: {fileID: 5056108358163668146}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -87,58 +84,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!54 &7807465198742257685
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!65 &3384582060015119208
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.44537738, y: 0.029512964, z: 0.05551992}
-  m_Center: {x: -0.00002013892, y: 0.000010067134, z: 0.010044413}
---- !u!65 &4738203657253243482
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5, z: 0.5}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &2084989674286798667
+--- !u!114 &1077300905248111316
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7764469520760066273}
-  m_Enabled: 1
+  m_GameObject: {fileID: 5056108358163668146}
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74fc7ae5dabc984479f307ded878e828, type: 3}
+  m_Script: {fileID: 11500000, guid: c3d66a286afb71d4e83349ce76e4edb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weapon: {fileID: 0}
+  weaponName: Knife
+  meelee: 1
+  maxAmmo: 0
+  ammo: 1
+  ammoInInventory: 0
+  reloadTime: 0
+  damage: 10
+  range: 2.5
+  impactForce: 100
+  fireRate: 2
+  S_shot: Glock Shot
+  S_empty: 
+  S_reload: 

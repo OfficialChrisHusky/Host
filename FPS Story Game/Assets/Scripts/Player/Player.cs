@@ -18,7 +18,7 @@ public class Player : MonoBehaviour {
 
     [Header("Scripts")]
     public PlayerMovement movement;
-    public CameraLook cameraLook;
+    public PlayerLook cameraLook;
     public HealthSystem healthSystem;
 
     [Header("Player Variables")]
@@ -27,14 +27,47 @@ public class Player : MonoBehaviour {
 
     public GameObject playerCamera;
     public GameObject playerBody;
+    public GameObject weaponHolder;
+
+    [Header("Weapons")]
+    public Weapon currentWeapon;
+    public List<Weapon> weapons = new List<Weapon>();
 
     public void Die() {
 
-        Debug.Log("ded");
+        //AudioManager.instance.Play("Player Death");
 
         canMove = false;
         canLook = false;
 
+    }
+
+    private void Update() {
+
+        if(Input.GetKeyDown(KeyCode.R)) {
+
+            StartCoroutine(currentWeapon.Reload());
+
+        }
+
+        if(currentWeapon != null && Input.GetMouseButton(0)) {
+
+            currentWeapon.Attack(playerCamera.transform);
+
+        }
+
+    }
+
+    private void OnTriggerEnter(Collider other) {
+
+        if(other.tag == "Pickup") {
+
+            IPickup pickup = other.GetComponent<IPickup>();
+
+            pickup.Pickup();
+
+        }
+        
     }
 
 }

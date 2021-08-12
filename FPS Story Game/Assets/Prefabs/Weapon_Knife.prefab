@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -50, y: 90, z: 0}
 --- !u!33 &8849270879377803693
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -109,3 +109,5 @@ MonoBehaviour:
   S_shot: Glock Shot
   S_empty: 
   S_reload: 
+  isInInventory: 0
+  index: 0

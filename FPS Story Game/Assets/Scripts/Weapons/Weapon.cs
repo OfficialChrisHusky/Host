@@ -27,8 +27,8 @@ public class Weapon : MonoBehaviour {
     [SerializeField] private string S_empty;
     [SerializeField] private string S_reload;
 
-    private bool isEquiped;
-    private bool isInInventory;
+    public bool isInInventory;
+    public int index;
 
     public void Equip() {
 
@@ -41,6 +41,8 @@ public class Weapon : MonoBehaviour {
         Instantiate(gameObject, Player.instance.weaponHolder.transform).GetComponent<Weapon>();
 
         Player.instance.currentWeapon = this;
+
+        isInInventory = true;
 
         nextFire = 0;
 

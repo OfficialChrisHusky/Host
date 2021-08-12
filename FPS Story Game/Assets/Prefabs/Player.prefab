@@ -311,7 +311,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -702,6 +702,9 @@ MonoBehaviour:
   playerBody: {fileID: 3546405221793956669}
   weaponHolder: {fileID: 239426354}
   currentWeapon: {fileID: 0}
+  weapons:
+  - {fileID: 1077300905248111316, guid: 28d3df6faaf7695419711239189d1e26, type: 3}
+  - {fileID: 7622848657135997668, guid: 272d4a4b2de82ae40a6f8881077b310c, type: 3}
 --- !u!1 &3546405222016261040
 GameObject:
   m_ObjectHideFlags: 0

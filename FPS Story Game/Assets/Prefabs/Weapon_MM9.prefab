@@ -99,12 +99,13 @@ MonoBehaviour:
   maxAmmo: 19
   ammo: 19
   ammoInInventory: 57
+  reloadTime: 0.7
   damage: 15
   range: 100
   impactForce: 150
-  reloadTime: 0.7
   fireRate: 6
-  nextFire: 0
   S_shot: Glock Shot
   S_empty: Glock Empty
   S_reload: Glock Reload
+  isInInventory: 0
+  index: 1

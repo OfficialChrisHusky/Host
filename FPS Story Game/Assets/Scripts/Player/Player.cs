@@ -44,15 +44,51 @@ public class Player : MonoBehaviour {
 
     private void Update() {
 
-        if(Input.GetKeyDown(KeyCode.R)) {
+        if (currentWeapon != null) {
+
+            ChangeWeapon(Input.GetAxis("Mouse ScrollWheel"));
+
+        }
+
+        if (currentWeapon != null && Input.GetMouseButton(0)) {
+
+            currentWeapon.Attack(playerCamera.transform);
+
+        }
+
+        if (currentWeapon != null && Input.GetKeyDown(KeyCode.R)) {
 
             StartCoroutine(currentWeapon.Reload());
 
         }
 
-        if(currentWeapon != null && Input.GetMouseButton(0)) {
+    }
 
-            currentWeapon.Attack(playerCamera.transform);
+    private void ChangeWeapon(float way) {
+
+        if(way > 0) {
+
+            for(int i = 1; currentWeapon.index + i < weapons.Count; i++) {
+
+                if(weapons[currentWeapon.index + i].isInInventory) {
+
+                    weapons[currentWeapon.index + i].Equip();
+
+                }
+
+            }
+
+        } else if(way < 0) {
+
+            for (int i = 1; currentWeapon.index - i >= 0; i++) {
+
+                if (weapons[currentWeapon.index - i].isInInventory) {
+
+                    weapons[currentWeapon.index - i].Equip();
+
+                }
+
+            }
 
         }
 

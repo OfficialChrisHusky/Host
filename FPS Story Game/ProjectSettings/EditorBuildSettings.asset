@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainLevels/GameMenu.unity
+    guid: 9408c504f942ff0458a87da342a5a169
+  - enabled: 1
+    path: Assets/Scenes/MainLevels/Sewers/sewers_l1.unity
+    guid: 263d657d32fe8d148acaab5579e184b2
+  - enabled: 1
+    path: Assets/Scenes/MainLevels/Sewers/sewers_l2.unity
+    guid: a271fbdedf1fa974180b9d5e383a08a9
   m_configObjects: {}

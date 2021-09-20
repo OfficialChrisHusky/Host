@@ -17,6 +17,15 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float sprintSpeed;
     [SerializeField] float acceleration;
 
+    [Header("Crouchin")]
+    [SerializeField] bool isCrouching;
+    public float crouchSpeedMultiplier;
+    [SerializeField] float crouchHeightMultiplier = 0.5f;
+
+    [Header("Crawling")]
+    [SerializeField] bool isCrawling;
+    public float crawlSpeedMultiplier;
+    [SerializeField] float crawlHeightMultiplier = 0.25f;
 
     [Header("Jumping")]
     public float jumpForce = 5f;
@@ -24,10 +33,12 @@ public class PlayerMovement : MonoBehaviour
     [Header("Key Bindings")]
     [SerializeField] KeyCode jumpKey = KeyCode.Space;
     [SerializeField] KeyCode sprintKey = KeyCode.LeftShift;
+    [SerializeField] KeyCode crouchKey = KeyCode.LeftControl;
+    [SerializeField] KeyCode CrawlKey = KeyCode.LeftAlt;
 
 
-    
-    
+
+
 
 
     float horizontalMovement;
@@ -42,7 +53,7 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
-    [Header("Groun Detection")]
+    [Header("Ground Detection")]
     [SerializeField] Transform groundCheck;
     bool isGrounded;
     [SerializeField] float groundDistance = 0.4f;
@@ -87,6 +98,30 @@ public class PlayerMovement : MonoBehaviour
                 Jump();
             }
 
+            if(Input.GetKeyDown(crouchKey) && !isCrouching && !isCrawling) {
+
+                Crouch();
+                isCrouching = true;
+
+            } else if (Input.GetKeyUp(crouchKey) && isCrouching && !isCrawling) {
+
+                Crouch();
+                isCrouching = false;
+
+            }
+
+            if(Input.GetKeyDown(CrawlKey) && !isCrawling && !isCrouching) {
+
+                Crawl();
+                isCrawling = true;
+
+            } else if(Input.GetKeyUp(CrawlKey) && isCrawling && !isCrouching) {
+
+                Crawl();
+                isCrawling = false;
+
+            }
+
             slopeMoveDirection = Vector3.ProjectOnPlane(moveDirection, slopeHit.normal);
 
         }
@@ -108,7 +143,7 @@ public class PlayerMovement : MonoBehaviour
 
     void ControlSpeed()
     {
-        if(Input.GetKey(sprintKey) && isGrounded)
+        if(Input.GetKey(sprintKey) && isGrounded && !isCrawling && !isCrouching)
         {
             moveSpeed = Mathf.Lerp(moveSpeed, sprintSpeed, acceleration * Time.deltaTime);
         }
@@ -152,4 +187,37 @@ public class PlayerMovement : MonoBehaviour
             rb.AddForce(moveDirection.normalized * moveSpeed * movementMultiplier * airMultiplier, ForceMode.Acceleration);
         }
     }
+
+    void Crouch() {
+
+        if (isCrouching) {
+
+            rb.transform.localScale = new Vector3(1, rb.transform.localScale.y / crouchHeightMultiplier, 1);
+            movementMultiplier /= crouchSpeedMultiplier;
+
+        } else {
+
+            rb.transform.localScale = new Vector3(1, rb.transform.localScale.y * crouchHeightMultiplier, 1);
+            movementMultiplier *= crouchSpeedMultiplier;
+
+        }
+
+    }
+
+    void Crawl() {
+
+        if (isCrawling) {
+
+            rb.transform.localScale = new Vector3(1, rb.transform.localScale.y / crawlHeightMultiplier, 1);
+            movementMultiplier /= crawlSpeedMultiplier;
+
+        } else {
+
+            rb.transform.localScale = new Vector3(1, rb.transform.localScale.y * crawlHeightMultiplier, 1);
+            movementMultiplier *= crawlSpeedMultiplier;
+
+        }
+
+    }
+
 }
